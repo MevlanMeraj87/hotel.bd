@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+/* UTF-8 */
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3  {
+    padding-bottom: 20px;
+}
+
+.l-heading{
+    font-size: 40px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary{
+    color: #f5af6a;
+}
+.paragraph{
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    background-color:#f5af6a ;
+    color: black;
+    transition: all 0.5s ease-in;
+}
+
+
+.btn-light{
+    background: #f4f4f4;
+    color: #333;
+    padding: 8px 16px;
+}
+
+
+.bg-dark{
+    background: #444;  
+}
+
+.bg-light{
+    background: #f4f4f4;
+    color: black;
+}
+
+.bg-primary{
+    background: #f7c08a;
+    color: black;
+}
+
+.clr{
+    clear: both;
+}
+
+/* padding */
+
+.padding-1{padding: 10px;}
+.padding-2{padding: 20px;}
+.padding-3{padding: 30px;}
+
+
+/* navbar */
+
+#navbar{
+    background-color: #333;
+    color: white;
+    overflow: auto;
+}
+
+
+#navbar a{
+    color: white;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a{
+    margin-right: 2px;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background-color: #444;
+    color: #f7c08a;
+}
+
+
+/* section1 */
+/* about-info */
+
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+
+}
+
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%; 
+}
+
+/* testimonial */
+
+#testimonials{
+    height: 100%;
+    background: url('../img/test-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#testimonials .testimonial img{
+    height: 100px;
+    float: left;
+    margin-top: 13px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+#testimonials .testimonial h3{
+    padding: 0px;
+    color: black;
+    opacity: 0.9;
+}
+
+#testimonials h2{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom : 40px;
+}  
+
+#testimonials .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+}
+#testimonials .testimonial{
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+/* footer */
+
+.footer{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background:  #333;
+    color: white;
+}
+
+
+
+/* finish */

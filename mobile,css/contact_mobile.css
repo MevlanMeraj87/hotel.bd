@@ -1,0 +1,63 @@
+/* contact_mobile.css */
+/* navbar */
+
+#navbar .logo{
+    float: none;
+    text-align: center;
+}
+
+#navbar ul{
+    float: none;
+    text-align: center;
+    display: block;
+    
+}
+#navbar ul li {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul li a{
+    padding: 7px;
+    margin-bottom: 2px;
+    border-bottom: 1px dotted #444;
+    
+}
+
+.current{
+    border: 0px;
+} 
+
+.container{
+    margin: auto;
+    overflow: auto;
+    padding: 0px ;
+}
+
+/* contact.html */
+/* contact */
+
+.box{
+    float: none;
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    padding-top: 0px;
+    border-bottom: 1px dotted #444;
+   
+}
+.box:last-child{
+    border: none;
+}
+
+p{
+    margin: 0px ;
+    
+}
+
+ 
+.footer{
+    font-size: 16px;
+}
+
+/* finish */

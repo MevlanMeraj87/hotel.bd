@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+/* UTF-8 */
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2 {
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary{
+    color: #f5af6a;
+}
+.paragraph{
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: #333;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid rgb(255, 136, 0);
+}
+.btn:focus{
+    outline: none;
+    border: 0px;
+}
+
+.submit-btn{
+    text-align: center;
+}
+
+
+.btn:hover{
+    background-color:#f5af6a ;
+    color: black;
+    transition: all 0.5s ease-in;
+    border: 1px solid rgb(136, 255, 0);
+}
+
+
+.btn-light{
+    background: #f4f4f4;
+    color: #333;
+    padding: 8px 16px;
+}
+
+
+.bg-dark{
+    background: #444;  
+}
+
+.bg-light{
+    background: #f4f4f4;
+    color: black;
+}
+
+.bg-primary{
+    background: #f7c08a;
+    color: black;
+}
+
+.clr{
+    clear: both;
+}
+
+.padding-3{
+    padding: 30px;
+}
+
+.padding-2{
+    padding: 20px;
+}
+
+.padding-1{
+    padding: 10px;
+}
+
+
+.l-heading{
+    font-size: 40px;
+}
+
+
+/* navbar */
+
+#navbar{
+    background-color: #333;
+    color: white;
+    overflow: auto;
+}
+
+
+#navbar a{
+    color: white;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a{
+    margin-right: 2px;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background-color: #444;
+    color: #f7c08a;
+}
+
+/* contact-from */
+
+#contact-from {
+    background: lightslategray;
+}
+
+.container p{
+    font-size: 18px;
+}
+
+#contact-from .from-group{
+    margin-bottom: 20px;
+}
+
+#contact-from label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+#contact-from input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 17px;
+    border-radius: 4px;
+    background: lightslategray;
+    border-top: 1px solid #ff8408;
+    border-bottom: 1px solid lightgreen;
+    border-left: 0px;
+    border-right: 0px;
+    color: black;
+}
+
+#contact-from input:focus{
+    outline: none;
+    border-top: 1px dotted #ff8408;
+    border-bottom: 1px dotted lightgreen;
+    border-left: 1px solid #ff8408;
+    border-right: 1px solid lightgreen;
+}
+
+#contact-from textarea{
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    border-radius: 10px;
+    height: 230px;
+    background: lightslategray;
+    border-top: 1px solid lightgreen;
+    border-bottom: 1px solid #ff8408;
+    border-left: 0px;
+    border-right: 0px;
+    color: black;
+}
+
+
+#contact-from textarea:focus{
+    outline: none;
+    border-top: 1px solid #ff8408;
+    border-bottom: 1px solid lightgreen;
+    border-right: 1px dotted #ff8408;
+    border-left: 1px dotted lightgreen;
+}
+
+
+
+
+/* solial-contact */
+
+.social-contact{   
+    background-position: center;
+    background-color:rgb(77, 85, 94);
+    height: 100px;
+   text-align: center;
+    
+    
+}
+.social{
+   padding-top: 34px;
+}
+
+
+
+.fa-twitter{
+    margin-right: 30px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.fa-twitter:hover{
+    color: rgb(64, 170, 237);
+    transition:all 0.5s ease-in;
+    
+   
+}
+
+.fa-instagram{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.fa-instagram:hover{
+    color: rgb(252, 77, 86);
+    transition:all 0.5s ease-in;
+    
+}
+
+.fa-youtube{
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.fa-youtube:hover{
+    color: rgb(255, 0, 0);
+    transition:all 0.5s ease-in;
+}
+
+
+.fa-facebook{
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.fa-facebook:hover{
+    color: rgb(0, 119, 255);
+    transition:all 0.5s ease-in;
+}
+
+/* contact */
+
+
+.contact{
+    background-color: #B8B8B8;
+}
+
+.box{
+    background-color:#B8B8B8;
+    padding-top: 50px;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+   
+ 
+}
+
+.box p{
+     padding-bottom: 50px;
+    text-align: center;
+   
+}
+
+.box h3{
+   padding-top: 50px;
+    text-align: center;
+}
+
+
+.fa-map-marker-alt{
+   text-align: center;
+}
+
+.fa-phone{
+    text-align: center;
+}
+
+.fa-envelope-square{
+  text-align: center;
+}
+
+.clr{
+    clear: both;
+}
+
+
+.box a{
+    text-decoration: none;
+    color: black;
+}
+
+/* footer */
+
+.footer{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background:  #333;
+    color: white;
+}
+
+
+/* finish */
+
+
+
+ 
